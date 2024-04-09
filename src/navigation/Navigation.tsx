@@ -9,7 +9,7 @@ const Navigation = () => {
 	return (
 		<>
 			<Routes>
-				<Route path="/final_task_react/" element={<Layout />}>
+				<Route path="/" element={<Layout />}>
 					<Route path="postlist" element={<PostList />}></Route>
 					<Route path="todoList" element={<TodoList />}></Route>
 					<Route path="userList" element={<UserList />}></Route>
